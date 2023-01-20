@@ -1,4 +1,5 @@
 const {src, dest, watch, series} = require('gulp');
+var del = require('del');
 const sass = require('gulp-sass')(require('sass'));
 const bulk = require('gulp-sass-bulk-importer');
 const prefixer = require('gulp-autoprefixer');
@@ -67,6 +68,10 @@ function fonts() {
         .pipe(dest('assets/build/fonts/'))
 }
 
+function cleanImg() {
+    return del(path.build.img);
+}
+
 function img() {
     return src(path.src.img)
         .pipe(dest(path.build.img))
@@ -75,7 +80,7 @@ function img() {
 exports.style = style;
 exports.js = js;
 exports.fonts = fonts;
-exports.img = img;
+exports.img = series(cleanImg, img);
 
 exports.default = function() {
     watch('assets/src/scss/*.scss', style);
