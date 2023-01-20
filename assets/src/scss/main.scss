@@ -1,0 +1,13 @@
+// Щрифты
+@import 'fonts.scss';
+
+// Переопределение дефолтных значений переменных Bootstrap и определение своих
+@import '_variables.scss';
+
+// Подключение Bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import 'allPage.scss';
+
+@import 'blocks/header.scss';
