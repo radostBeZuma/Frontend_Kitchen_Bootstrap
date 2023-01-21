@@ -13,15 +13,16 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__top-side">
+        <div class="header__top-side d-md-none d-lg-block">
             <div class="container">
                 <div class="row pt-2 pb-2">
-                    <div class="col-7 fs-sm-text">
-                        <img src="/assets/build/img/arrow-down.svg" alt="">
-                        <p class="mb-0">г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж, бутик № 20а</p>
+                    <div class="col-lg-8 col-xl-7 fs-sm-text">
+                        <img class="me-1" src="/assets/build/img/location.png" alt="">
+                        <span class="mb-0">г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж, бутик № 20а</span>
                     </div>
-                    <div class="col-2">
-                        test
+                    <div class="d-flex justify-content-end offset-lg-1 offset-xl-2 col-3">
+                        <img src="/assets/build/img/telephone.png" alt="">
+                        <span class="ms-1 fw-semibold">+7 (3466) 68-15-98</span>
                     </div>
                 </div>
             </div>
