@@ -1,3 +1,72 @@
-.header__top-side {
-    background-color: $primary;
+.header {
+
+    &__top-side {
+        background-color: $primary;
+    }
+
+    & .navbar {
+        background: $white;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    & .navbar-brand img {
+        width: 100%;
+        height: auto;
+    }
+
+    & .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    & .navbar-toggler .navbar-toggler-icon {
+        &.hide {
+            display: none;
+        }
+    }
+
+    & .navbar-toggler .btn-close {
+        display: none;
+
+        &.show {
+            display: inline;
+        }
+    }
+
+    & .navbar-collapse.collapsing {
+        -webkit-transition: height 0.01s;
+        -moz-transition: height 0.01s;
+        -ms-transition: height 0.01s;
+        -o-transition: height 0.01s;
+        transition: height 0.01s;
+    }
+
+    &__location {
+        width: 15px;
+        height: 19px;
+        background-image: url("/assets/build/img/location-yellow.svg");
+    }
+
+    @media (max-width: 1200px) {
+        &-navbar__nav-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: $white;
+            overflow: auto;
+        }
+
+        & .navbar-nav {
+            padding: 50px 0 0;
+            align-items: center;
+        }
+
+        & .navbar-nav li.nav-item a.nav-link {
+            font-size: 18px;
+        }
+    }
+
 }

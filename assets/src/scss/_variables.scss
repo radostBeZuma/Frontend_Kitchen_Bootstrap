@@ -1,9 +1,15 @@
 // цвета
 
 $primary: #FBD846;
+$secondary: #99CB38;
+$tertiary: #333333;
+$white: #FFFFFF;
 
 $theme-colors: (
         "primary":    $primary,
+        "secondary":  $secondary,
+        "tertiary": $tertiary,
+        "white": $white,
 );
 
 // цвета конец
@@ -16,10 +22,14 @@ $spacers: (
         0: 0,
         1: $spacer * .25,
         2: $spacer * .5,
-        3: $spacer,
-        4: $spacer * 1.25,
-        5: $spacer * 1.5,
-        6: $spacer * 3,
+        3: $spacer,         // 16
+        4: $spacer * 1.25,  // 20
+        5: $spacer * 1.5,   // 24
+        6: $spacer * 2,     // 32
+        7: $spacer * 2.5,   // 40
+        8: $spacer * 3,     // 48
+        9: $spacer * 3.5,    // 56
+
 );
 
 // паддинги и марджины конец
@@ -30,6 +40,14 @@ $spacers: (
 $font-family-base:            'Montserrat';
 $font-size-root:              16px;
 $font-size-base:              1rem;
+
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
 
 $h1-font-size:                $font-size-base * 2.5;    // 40px
 $h2-font-size:                $font-size-base * 2;      // 32px
@@ -57,7 +75,8 @@ $font-sizes: (
 
 $grid-gutter-width: 30px;
 
-
+// точки для css - работают от нуля и до 1200,
+// то есть мобильная версия потом уже компьютерная версия
 $grid-breakpoints: (
         xs: 0,
         sm: 576px,
@@ -66,7 +85,7 @@ $grid-breakpoints: (
         xl: 1200px,
 );
 
-
+// размер контейнера
 $container-max-widths: (
         sm: 540px,
         md: 720px,
@@ -75,3 +94,16 @@ $container-max-widths: (
 );
 
 // сетка конец
+
+// navbar start
+
+$navbar-padding-y: 18px;
+
+$navbar-light-active-color: $secondary;
+$navbar-light-hover-color: $secondary;
+$navbar-light-color: $tertiary;
+
+$nav-link-font-size: $sm-text-font-size;
+$nav-link-font-weight: $font-weight-semibold;
+
+// navbar end

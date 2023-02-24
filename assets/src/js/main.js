@@ -4,5 +4,5 @@
 // import required js-files Bootstrap 5
 //= ../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js
 
-
-//= console.js
+// import blocks
+//= header.js

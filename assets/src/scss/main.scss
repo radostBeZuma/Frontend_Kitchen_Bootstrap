@@ -7,6 +7,8 @@
 // Подключение Bootstrap
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
+// переопределение стилей
+@import 'custom-bs/button.scss';
 
 @import 'allPage.scss';
 
