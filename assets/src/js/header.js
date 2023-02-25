@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let header = document.querySelector(headerEl);
             let navItems = document.querySelector(navItemsEl);
 
-            document.body.style.paddingTop = header.clientHeight + 5 + 'px';
+            document.body.style.paddingTop = header.clientHeight + 'px';
             navItems.style.top = header.clientHeight + 'px';
         }, 60);
 

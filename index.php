@@ -84,6 +84,49 @@
         </nav>
     </header>
 
+    <section class="promo-top pt-6 pt-md-12 pt-lg-9">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-sm-10 col-lg-8 col-xl-6">
+                    <h1 class="fw-black lh-sm fs-2 pb-4">Кухни в Нижневартовске от производителя - <br><span class="fw-bold text-primary">недорого и надёжно!</span></h1>
+                    <p class="promo-top__description lh-sm">Изготовим и доставим кухонный гарнитур в Излучинск, Мегион, Стрежевой, Лангепас, Радужный и другие города ХМАО</p>
+                </div>
+            </div>
+            <div class="row pt-4 pt-sm-9">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex align-items-center pb-5 pb-sm-0">
+                    <img class="pe-2" src="/assets/build/img/advantage-first.png" alt="">
+                    <span class="promo-top__advantage-title fw-medium lh-sm">Рассрочка без переплаты!</span>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex align-items-center pb-5 pb-sm-0">
+                    <img class="pe-2" src="/assets/build/img/advantage-two.png" alt="">
+                    <span class="promo-top__advantage-title fw-medium lh-sm">Бесплатный замер и дизайн проект</span>
+                </div>
+            </div>
+            <div class="row pt-0 pt-sm-9">
+                <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-center pb-5 pb-sm-0">
+                    <img class="pe-2" src="/assets/build/img/advantage-three.png" alt="">
+                    <span class="promo-top__advantage-title fw-medium lh-sm">Более 500 цветов фасадов</span>
+                </div>
+                <div class="col-12 col-sm-6  col-lg-5 col-xl-4 d-flex align-items-center">
+                    <img class="pe-2" src="/assets/build/img/advantage-four.png" alt="">
+                    <div>
+                        <p class="promo-top__advantage-title fw-medium mb-0 lh-sm">Соблюдение сроков изготовления</p>
+                        <p class="promo-top__advantage-desc mb-0 lh-sm">Если не выполним в срок – мы заплатим Вам неустойку</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-7 pb-7 d-flex align-items-center">
+                <div class="offset-sm-2 offset-md-0 col-12 col-sm-8 col-md-6 col-lg-4 pb-4 pb-md-0 pe-md-0 pe-lg-3">
+                    <button class="promo-top__btn btn btn-lg btn-primary w-100 py-3">Рассчитать стоимость</button>
+                </div>
+                <div class="offset-sm-1 offset-lg-0 col-sm-10 col-md-5 col-lg-4 col-xl-3 d-flex flex-column align-items-center">
+                    <img src="/assets/build/img/gift.png" alt="">
+                    <p class="fw-medium text-center">Пройдите тест из 5 вопросов и получите дизайн проект, и расчет стоимость кухни <br> <span class="fw-normal">+ гарантированный подарок при заказе кухни!</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="/assets/build/js/main.min.js"></script>
 </body>
 </html>
