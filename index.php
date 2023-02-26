@@ -127,6 +127,156 @@
         </div>
     </section>
 
+    <section class="popular-models bg-primary pb-8">
+        <div class="container-md">
+            <div class="row">
+                <h2 class="col-12 text-uppercase fs-3 fw-black text-center py-7 py-sm-9 mb-0">
+                    Популярные модели
+                </h2>
+            </div>
+            <div class="row pb-7">
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-6 pb-sm-4 d-sm-flex align-items-sm-stretch">
+                    <div class="card rounded-0">
+                        <a href="#">
+                            <img class="card-img-top rounded-0" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <a class="card-title fw-semibold text-decoration-none d-block pb-4 mb-0" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
+                            <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
+                                <div class="popular-models__card-price">
+                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
+                                </div>
+                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-6 pb-sm-4 d-sm-flex align-items-sm-stretch">
+                    <div class="card rounded-0">
+                        <a href="#">
+                            <img class="card-img-top rounded-0" src="/assets/build/img/kitchen-loft-two.jpg" alt="">
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.</a>
+                            <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
+                                <div class="popular-models__card-price">
+                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
+                                </div>
+                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle" type="button">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-6 pb-sm-4 d-sm-flex align-items-sm-stretch">
+                    <div class="card rounded-0">
+                        <a href="#">
+                            <img class="card-img-top rounded-0" src="/assets/build/img/kitchen-loft-three.jpg" alt="">
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
+                            <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
+                                <div class="popular-models__card-price">
+                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
+                                </div>
+                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-6 pb-sm-4 d-sm-flex align-items-sm-stretch">
+                    <div class="card rounded-0">
+                        <a href="#">
+                            <img class="card-img-top rounded-0" src="/assets/build/img/kitchen-loft-four.jpg" alt="">
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ex laborum optio quis reprehenderit.</a>
+                            <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
+                                <div class="popular-models__card-price">
+                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
+                                </div>
+                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-6 pb-sm-4 d-sm-flex align-items-sm-stretch">
+                    <div class="card rounded-0">
+                        <a href="#">
+                            <img class="card-img-top rounded-0" src="/assets/build/img/kitchen-loft-five.jpg" alt="">
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
+                            <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
+                                <div class="popular-models__card-price">
+                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
+                                </div>
+                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-6 pb-sm-4 d-sm-flex align-items-sm-stretch">
+                    <div class="card rounded-0">
+                        <a href="#">
+                            <img class="card-img-top rounded-0" src="/assets/build/img/kitchen-loft-six.jpg" alt="">
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
+                            <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
+                                <div class="popular-models__card-price">
+                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
+                                </div>
+                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="offset-0 offset-sm-2 offset-md-3 offset-lg-4 col-12 col-sm-8 col-md-6 col-lg-4">
+                    <a class="btn btn-lg btn-secondary w-100 py-3" href="#">Смотреть все товары</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="/assets/build/js/main.min.js"></script>
 </body>
 </html>

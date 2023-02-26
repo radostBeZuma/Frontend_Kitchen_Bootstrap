@@ -18,3 +18,11 @@
         background-color: #FFE888;
     }
 }
+
+.btn-secondary {
+    color: $tertiary;
+    box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
+    border-radius: 30px;
+    font-weight: $font-weight-bold;
+    transition: background-color 0.5s;
+}

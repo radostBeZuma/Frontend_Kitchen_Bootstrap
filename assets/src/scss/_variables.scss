@@ -3,13 +3,18 @@
 $primary: #FBD846;
 $secondary: #99CB38;
 $tertiary: #333333;
+$quaternary: #B2B2B2;
+$five: #F4F4F4;
+
 $white: #FFFFFF;
 
 $theme-colors: (
-        "primary":    $primary,
-        "secondary":  $secondary,
-        "tertiary": $tertiary,
-        "white": $white,
+        "primary":      $primary,
+        "secondary":    $secondary,
+        "tertiary":     $tertiary,
+        "white":        $white,
+        "quaternary":   $quaternary,
+        "five":         $five,
 );
 
 // цвета конец
@@ -20,8 +25,8 @@ $theme-colors: (
 $spacer: 1rem;
 $spacers: (
         0: 0,
-        1: $spacer * .25,
-        2: $spacer * .5,
+        1: $spacer * .25,   // 4
+        2: $spacer * .5,    // 8
         3: $spacer,         // 16
         4: $spacer * 1.25,  // 20
         5: $spacer * 1.5,   // 24
