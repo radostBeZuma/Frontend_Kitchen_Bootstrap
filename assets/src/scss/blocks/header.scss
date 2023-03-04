@@ -1,17 +1,6 @@
 .header {
-
-    &__top-side {
-        background-color: $primary;
-    }
-
     & .navbar {
-        background: $white;
         box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    & .navbar-brand img {
-        width: 100%;
-        height: auto;
     }
 
     & .navbar-toggler:focus {
@@ -48,24 +37,11 @@
 
     @media (max-width: 1199px) {
         &-navbar__nav-item {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
             position: fixed;
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: $white;
             overflow: auto;
-        }
-
-        & .navbar-nav {
-            padding: 50px 0 0;
-            align-items: center;
-        }
-
-        & .navbar-nav li.nav-item a.nav-link {
-            font-size: 18px;
         }
     }
 

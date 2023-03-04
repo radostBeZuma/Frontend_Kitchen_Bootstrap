@@ -1,20 +1,38 @@
+// body color start
+
+$body-color: #333333;
+
+// body color end
+
 // цвета
 
-$primary: #FBD846;
-$secondary: #99CB38;
-$tertiary: #333333;
-$quaternary: #B2B2B2;
-$five: #F4F4F4;
+$primary:               #FBD846;
+$secondary:             #99CB38;
+$tertiary:              #333333;
+$quaternary:            #F5F5F5;
 
-$white: #FFFFFF;
+$six:                   #818181;
+$eight:                 #8C8C8C;
+$silver-chalice:        #B2B2B2;
+$wild-sand:             #F4F4F4;
+
+$white:                 #FFFFFF;
 
 $theme-colors: (
-        "primary":      $primary,
-        "secondary":    $secondary,
-        "tertiary":     $tertiary,
-        "white":        $white,
-        "quaternary":   $quaternary,
-        "five":         $five,
+        // btn start
+
+        "primary":              $primary,
+        "secondary":            $secondary,
+        "tertiary":             $tertiary,
+        "quaternary":           $quaternary,
+
+        // btn end
+
+        "silver-chalice":       $silver-chalice,
+        "wild-sand":            $wild-sand,
+        "white":                $white,
+        "six":                  $six,
+        "eight":                $eight,
 );
 
 // цвета конец
@@ -53,8 +71,10 @@ $font-size-base:              1rem;
 $font-weight-lighter:         lighter;
 $font-weight-light:           300;
 $font-weight-normal:          400;
+$font-weight-medium:          500;
 $font-weight-semibold:        600;
 $font-weight-bold:            700;
+$font-weight-black:           900;
 $font-weight-bolder:          bolder;
 
 $h1-font-size:                $font-size-base * 2.5;    // 40px
@@ -74,8 +94,8 @@ $font-sizes: (
         4: $h4-font-size,
         5: $h5-font-size,
         6: $h6-font-size,
-        sm-text: $sm-text-font-size,
-        md-text: $md-text-font-size,
+        7: $sm-text-font-size,
+        8: $md-text-font-size,
 );
 
 
@@ -97,7 +117,6 @@ $grid-breakpoints: (
 
 // размер контейнера
 $container-max-widths: (
-        sm: 540px,
         md: 720px,
         lg: 960px,
         xl: 1170px
@@ -117,3 +136,13 @@ $nav-link-font-size: $sm-text-font-size;
 $nav-link-font-weight: $font-weight-semibold;
 
 // navbar end
+
+// btn start
+
+$btn-padding-x: 0.875rem;                   // 14px
+$btn-padding-y: 1rem;                       // 16px
+$btn-font-size: 1rem;                       // 16px
+$btn-border-radius: 1.75rem;                // 28px
+$btn-font-weight: $font-weight-bold;        // 700
+
+// btn end

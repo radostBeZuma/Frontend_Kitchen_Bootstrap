@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="/assets/build/css/style.min.css">
 
 
-    <title>Document</title>
+    <title>Главная страница</title>
 </head>
 <body>
     <header class="header fixed-top js-header">
-        <div class="header__top-side d-none d-lg-block">
+        <div class="bg-primary d-none d-lg-block">
             <div class="container">
                 <div class="row pt-2 pb-2">
-                    <div class="col-lg-8 col-xl-7 fs-sm-text">
+                    <div class="col-lg-8 col-xl-7 fs-7">
                         <img class="me-1" src="/assets/build/img/location.png" alt="">
                         <span class="mb-0">г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж, бутик № 20а</span>
                     </div>
@@ -27,36 +27,36 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-xl navbar-light bg-light">
-            <div class="container-md d-block">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light bg-white">
+            <div class="container d-block">
                 <div class="row">
                     <a class="col-4 col-sm-3 col-lg-2 navbar-brand me-0" href="#">
-                        <img src="/assets/build/img/logo.jpg" alt="">
+                        <img class="w-100" src="/assets/build/img/logo.jpg" alt="">
                     </a>
                     <button class="navbar-toggler col-2 col-sm-2 col-md-1 order-md-3 order-xl-0 offset-6 offset-sm-7 offset-md-0 border-0 p-0 js-header-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
                         <span class="navbar-toggler-icon"></span>
                         <span class="btn-close" type="button" aria-label="сlose"></span>
                     </button>
                     <div class="collapse navbar-collapse col-sm-12 col-xl-8 ps-lg-3 ps-xl-0 order-md-4 order-xl-0" id="navbarSupportedContent">
-                        <div class="header-navbar__nav-item js-header-nav-item">
-                            <ul class="navbar-nav">
+                        <div class="header-navbar__nav-item js-header-nav-item d-flex d-xl-block flex-column justify-content-around bg-white">
+                            <ul class="navbar-nav pt-8 pt-xl-0 align-items-center align-items-xl-baseline">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Каталог товаров</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="#">Каталог товаров</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Кухонные модули</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="#">Кухонные модули</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Декоры</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="#">Декоры</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Фотопечать</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="#">Фотопечать</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Готовые решения</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="#">Готовые решения</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Контакты</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="#">Контакты</a>
                                 </li>
                             </ul>
                             <div class="container">
@@ -66,7 +66,7 @@
                                         <span class="ms-2">+7 (3466) 68-15-98</span>
                                     </div>
                                     <div class="col-8 col-sm-6 col-md-4 offset-2 offset-sm-3 offset-md-4 d-xl-none align-self-center pb-9 pb-sm-7">
-                                        <button class="btn btn-primary w-100 py-3">Заказать звонок</button>
+                                        <button class="btn btn-primary w-100 py-3 fs-6">Заказать звонок</button>
                                     </div>
                                     <div class="offset-1 offset-sm-1 offset-md-3 col-10 col-sm-10 col-md-6 d-flex d-sm-flex flex-column align-items-center d-xl-none">
                                         <div class="header__location"></div>
@@ -85,11 +85,11 @@
     </header>
 
     <section class="promo-top pt-6 pt-md-12 pt-lg-9">
-        <div class="container-md">
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-10 col-lg-8 col-xl-6">
                     <h1 class="fw-black lh-sm fs-2 pb-4">Кухни в Нижневартовске от производителя - <br><span class="fw-bold text-primary">недорого и надёжно!</span></h1>
-                    <p class="promo-top__description lh-sm">Изготовим и доставим кухонный гарнитур в Излучинск, Мегион, Стрежевой, Лангепас, Радужный и другие города ХМАО</p>
+                    <p class="lh-sm fs-6 fs-sm-8">Изготовим и доставим кухонный гарнитур в Излучинск, Мегион, Стрежевой, Лангепас, Радужный и другие города ХМАО</p>
                 </div>
             </div>
             <div class="row pt-4 pt-sm-9">
@@ -110,14 +110,14 @@
                 <div class="col-12 col-sm-6  col-lg-5 col-xl-4 d-flex align-items-center">
                     <img class="pe-2" src="/assets/build/img/advantage-four.png" alt="">
                     <div>
-                        <p class="promo-top__advantage-title fw-medium mb-0 lh-sm">Соблюдение сроков изготовления</p>
-                        <p class="promo-top__advantage-desc mb-0 lh-sm">Если не выполним в срок – мы заплатим Вам неустойку</p>
+                        <p class="fw-medium mb-0 lh-sm fs-6 fs-sm-6">Соблюдение сроков изготовления</p>
+                        <p class="mb-0 lh-sm fs-7 fs-sm-7">Если не выполним в срок – мы заплатим Вам неустойку</p>
                     </div>
                 </div>
             </div>
             <div class="row pt-7 pb-7 d-flex align-items-center">
                 <div class="offset-sm-2 offset-md-0 col-12 col-sm-8 col-md-6 col-lg-4 pb-4 pb-md-0 pe-md-0 pe-lg-3">
-                    <button class="promo-top__btn btn btn-lg btn-primary w-100 py-3">Рассчитать стоимость</button>
+                    <button class="btn btn-primary w-100 py-3 fs-6 fs-sm-5">Рассчитать стоимость</button>
                 </div>
                 <div class="offset-sm-1 offset-lg-0 col-sm-10 col-md-5 col-lg-4 col-xl-3 d-flex flex-column align-items-center">
                     <img src="/assets/build/img/gift.png" alt="">
@@ -128,7 +128,7 @@
     </section>
 
     <section class="popular-models bg-primary pb-8">
-        <div class="container-md">
+        <div class="container">
             <div class="row">
                 <h2 class="col-12 text-uppercase fs-3 fw-black text-center py-7 py-sm-9 mb-0">
                     Популярные модели
@@ -145,10 +145,10 @@
                             <a class="card-title fw-semibold text-decoration-none d-block pb-4 mb-0" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
                             <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
                                 <div class="popular-models__card-price">
-                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
                                     </svg>
@@ -167,10 +167,10 @@
                             <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.</a>
                             <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
                                 <div class="popular-models__card-price">
-                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle" type="button">
+                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle" type="button">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
                                     </svg>
@@ -189,10 +189,10 @@
                             <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
                             <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
                                 <div class="popular-models__card-price">
-                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
                                     </svg>
@@ -211,10 +211,10 @@
                             <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ex laborum optio quis reprehenderit.</a>
                             <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
                                 <div class="popular-models__card-price">
-                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
                                     </svg>
@@ -233,10 +233,10 @@
                             <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
                             <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
                                 <div class="popular-models__card-price">
-                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle" type="button">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
                                     </svg>
@@ -255,10 +255,10 @@
                             <a class="card-title fw-semibold text-decoration-none d-block pb-4" href="#">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</a>
                             <div class="popular-models__card-price-n-btn d-flex justify-content-between align-items-end">
                                 <div class="popular-models__card-price">
-                                    <div class="popular-models__card-old-price fw-semibold text-quaternary text-decoration-line-through">19 899</div>
+                                    <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-five rounded-circle   " type="button">
+                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
                                     </svg>
@@ -271,7 +271,70 @@
             </div>
             <div class="row">
                 <div class="offset-0 offset-sm-2 offset-md-3 offset-lg-4 col-12 col-sm-8 col-md-6 col-lg-4">
-                    <a class="btn btn-lg btn-secondary w-100 py-3" href="#">Смотреть все товары</a>
+                    <a class="btn btn-secondary w-100 py-3 fs-6 fs-sm-5" href="#">Смотреть все товары</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="choose-kitchen pb-7">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-12 text-uppercase fs-3 fw-black text-center py-6 mb-0">
+                    Выбор <span class="text-primary">кухни по стилям</span>
+                </h2>
+                <p class="col-12 text-center fw-light fs-5 mb-0 px-0 pb-9">Красивые, удобные и современные, кухни на заказ помогают создавать атмосферу уюта и комфорта в помещении. Вы хотите воплотить в жизнь мечты об удобном гарнитуре? Мы готовы вам в этом помочь.</p>
+            </div>
+            <div class="row pb-4">
+                <div class="col-12">
+                    <div class="row pb-6 align-items-center">
+                        <p class="col-2 pb-5 mb-0 fs-8 fw-semibold text-six">Выберите стиль:</p>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-primary">Эконом</button>
+                        </div>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Маленькие</button>
+                        </div>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Классика</button>
+                        </div>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Скандинавский</button>
+                        </div>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Минимализм</button>
+                        </div>
+                        <div class="offset-2 col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Хай-тек</button>
+                        </div>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Лофт</button>
+                        </div>
+                        <div class="col-2 pb-5">
+                            <button class="w-100 btn btn-quaternary">Прованс</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 pb-4">
+                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                </div>
+                <div class="col-4 pb-4">
+                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                </div>
+                <div class="col-4 pb-4">
+                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                </div>
+                <div class="col-4 pb-4">
+                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                </div>
+                <div class="col-4 pb-4">
+                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                </div>
+                <div class="col-4 pb-4">
+                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
                 </div>
             </div>
         </div>
