@@ -15,6 +15,7 @@ $six:                   #818181;
 $eight:                 #8C8C8C;
 $silver-chalice:        #B2B2B2;
 $wild-sand:             #F4F4F4;
+$white-aluminum:        #B0B0B0;
 
 $white:                 #FFFFFF;
 
@@ -33,6 +34,7 @@ $theme-colors: (
         "white":                $white,
         "six":                  $six,
         "eight":                $eight,
+        "white-aluminum":       $white-aluminum,
 );
 
 // цвета конец
@@ -86,6 +88,8 @@ $h6-font-size:                $font-size-base;          // 16px
 
 $md-text-font-size:           $font-size-base * 1.125;  // 18px
 $sm-text-font-size:           $font-size-base * 0.875;  // 14px
+$h9-font-size:                $font-size-base * 1.375;  // 22px
+$h10-font-size:               $font-size-base * 0.625;  // 10px
 
 $font-sizes: (
         1: $h1-font-size,
@@ -96,6 +100,8 @@ $font-sizes: (
         6: $h6-font-size,
         7: $sm-text-font-size,
         8: $md-text-font-size,
+        9: $h9-font-size,
+        10: $h10-font-size,
 );
 
 
@@ -146,3 +152,23 @@ $btn-border-radius: 1.75rem;                // 28px
 $btn-font-weight: $font-weight-bold;        // 700
 
 // btn end
+
+
+// form-control start
+
+$input-padding-x: 1.25rem;
+$input-padding-y:  1rem;
+$input-font-size:  1.25rem;
+$input-color: $tertiary;
+$input-bg: transparent;
+$input-border-color: $white-aluminum;
+$input-border-radius: 2rem;
+
+$input-placeholder-color: $white-aluminum;
+
+$input-focus-border-color: $primary;
+$input-box-shadow: none;
+$input-focus-box-shadow: none;
+
+
+// form-control end

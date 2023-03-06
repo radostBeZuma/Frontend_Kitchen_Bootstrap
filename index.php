@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="/assets/build/css/style.min.css">
 
-
     <title>Главная страница</title>
 </head>
 <body>
@@ -317,6 +316,63 @@
                     <button class="btn btn-outline-tertiary w-100 fs-7 fw-normal py-3" type="button">Показать еще</button>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="form-calc-cost pb-11">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="bg-quaternary rounded-5 py-6" method="" action="">
+                        <div class="row">
+                            <div class="col-12 col-lg-8">
+                                <div class="px-4">
+                                    <h2 class="fw-black fs-6 fs-sm-8 fs-lg-9 lh-base text-uppercase pb-5 mb-0">
+                                        Есть замер или эскиз кухни, или просто нашли фото кухни в интернете которая Вам нравится?
+                                    </h2>
+                                    <p class="text-uppercase mb-0 pb-5 fs-7 fs-lg-5">
+                                        Отправьте его нам и мы посчитаем стоимость с учетом Ваших пожеланий!
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-12 order-1 order-md-0">
+                                        <div class="row ps-md-4 pb-5 px-4 px-md-0">
+                                            <div class="col-md-12 col-lg-6 pb-4 pb-lg-0 pe-md-0">
+                                                <input class="form-control" type="text" placeholder="Ваше имя">
+                                            </div>
+                                            <div class="col-lg-6 pe-md-0">
+                                                <input class="form-control" type="text" placeholder="+7(_ _ _) _ _ _-_ _ - _ _ ">
+                                            </div>
+                                        </div>
+                                        <div class="row ps-md-4 px-4 px-md-0">
+                                            <div class="col-md-12 col-lg-6 pb-7 pb-lg-0 pe-md-0 d-flex align-items-center">
+                                                <div class="form-control-file d-flex align-items-center">
+                                                    <div>
+                                                        <label class="file-icon" for="sketch"></label>
+                                                        <input class="form-control-file" type="file" id="sketch">
+                                                    </div>
+                                                    <label class="file-text fs-6 fs-sm-8 px-3 px-xl-5 text-white-aluminum" for="sketch">Вы можете приложить эскиз или фото</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6 pe-md-0">
+                                                <button class="btn btn-primary w-100 fs-6 fs-md-8 fs-lg-5" type="button">Рассчитать стоимость</button>
+                                                <p class="fs-10 text-center pt-3 text-white-aluminum">Нажимая кнопку “Рассчитать стоимость”, вы соглашаетесь с условиями Политики конфиденциальности</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 offset-sm-2 offset-md-0 col-sm-8 col-md-6 d-block d-lg-none order-0 order-md-1">
+                                        <img class="w-100 px-6 px-sm-6" src="/assets/build/img/form-calc-cost-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 d-none d-lg-flex align-items-lg-center">
+                                <img class="w-100" src="/assets/build/img/form-calc-cost-img.png" alt="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </section>
 
