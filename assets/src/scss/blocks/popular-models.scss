@@ -29,17 +29,4 @@
             content: " ₽";
         }
     }
-
-    &__card-btn-add {
-        width: 40px;
-        height: 40px;
-
-        &:hover {
-            background-color: $secondary;
-
-            svg path {
-                stroke: $wild-sand;
-            }
-        }
-    }
 }

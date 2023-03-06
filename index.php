@@ -45,7 +45,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link fs-8 fs-xl-7" href="#">Кухонные модули</a>
-                                </li>
+                                    </li>
                                 <li class="nav-item">
                                     <a class="nav-link fs-8 fs-xl-7" href="#">Декоры</a>
                                 </li>
@@ -148,11 +148,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
-                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
-                                    </svg>
-                                </button>
+                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -170,11 +166,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle" type="button">
-                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
-                                    </svg>
-                                </button>
+                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -192,11 +184,8 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
-                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
-                                    </svg>
-                                </button>
+                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+
                             </div>
                         </div>
                     </div>
@@ -214,11 +203,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
-                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
-                                    </svg>
-                                </button>
+                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -236,11 +221,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle" type="button">
-                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
-                                    </svg>
-                                </button>
+                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -258,11 +239,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="popular-models__card-btn-add border-0 text-wild-sand rounded-circle   " type="button">
-                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078" stroke="#99CB38" stroke-width="2" stroke-miterlimit="10"/>
-                                    </svg>
-                                </button>
+                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -280,61 +257,64 @@
     <section class="choose-kitchen pb-7">
         <div class="container">
             <div class="row">
-                <h2 class="col-12 text-uppercase fs-3 fw-black text-center py-6 mb-0">
+                <h2 class="col-12 pt-10 pt-md-6 pb-6 mb-0 fs-4 fs-sm-3 fw-black text-uppercase text-center">
                     Выбор <span class="text-primary">кухни по стилям</span>
                 </h2>
-                <p class="col-12 text-center fw-light fs-5 mb-0 px-0 pb-9">Красивые, удобные и современные, кухни на заказ помогают создавать атмосферу уюта и комфорта в помещении. Вы хотите воплотить в жизнь мечты об удобном гарнитуре? Мы готовы вам в этом помочь.</p>
+                <p class="col-12 text-center fw-light fs-7 fs-sm-8 fs-lg-5 mb-0 px-sm-0 pb-9 text-start">Красивые, удобные и современные, кухни на заказ помогают создавать атмосферу уюта и комфорта в помещении. Вы хотите воплотить в жизнь мечты об удобном гарнитуре? Мы готовы вам в этом помочь.</p>
             </div>
-            <div class="row pb-4">
-                <div class="col-12">
-                    <div class="row pb-6 align-items-center">
-                        <p class="col-2 pb-5 mb-0 fs-8 fw-semibold text-six">Выберите стиль:</p>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-primary">Эконом</button>
-                        </div>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Маленькие</button>
-                        </div>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Классика</button>
-                        </div>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Скандинавский</button>
-                        </div>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Минимализм</button>
-                        </div>
-                        <div class="offset-2 col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Хай-тек</button>
-                        </div>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Лофт</button>
-                        </div>
-                        <div class="col-2 pb-5">
-                            <button class="w-100 btn btn-quaternary">Прованс</button>
-                        </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 pb-7">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle w-100 text-start d-flex justify-content-between align-items-center"
+                                type="button"
+                                id="dropdownMenuKitchen"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            Выберите стиль
+                        </button>
+                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuKitchen">
+                            <li><button class="dropdown-item" type="button">Эконом</button></li>
+                            <li><button class="dropdown-item" type="button">Маленькие</button></li>
+                            <li><button class="dropdown-item" type="button">Классика</button></li>
+                            <li><button class="dropdown-item" type="button">Скандинавский</button></li>
+                            <li><button class="dropdown-item" type="button">Минимализм</button></li>
+                            <li><button class="dropdown-item" type="button">Хай-тек</button></li>
+                            <li><button class="dropdown-item" type="button">Лофт</button></li>
+                            <li><button class="dropdown-item" type="button">Прованс</button></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-4 pb-4">
-                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                <div class="col-12 col-sm-6 col-lg-4 pb-4 position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="choose-kitchen__btn-lens btn-lens position-absolute"></button>
                 </div>
-                <div class="col-4 pb-4">
-                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                <div class="col-12 col-sm-6 col-lg-4 pb-4 position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="choose-kitchen__btn-lens btn-lens position-absolute"></button>
                 </div>
-                <div class="col-4 pb-4">
-                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                <div class="col-12 col-sm-6 col-lg-4 pb-4 position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="choose-kitchen__btn-lens btn-lens position-absolute"></button>
                 </div>
-                <div class="col-4 pb-4">
-                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                <div class="col-12 col-sm-6 col-lg-4 pb-4 position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="choose-kitchen__btn-lens btn-lens position-absolute"></button>
                 </div>
-                <div class="col-4 pb-4">
-                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                <div class="col-12 col-sm-6 col-lg-4 pb-4 position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="choose-kitchen__btn-lens btn-lens position-absolute"></button>
                 </div>
-                <div class="col-4 pb-4">
-                    <img src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                <div class="col-12 col-sm-6 col-lg-4 pb-4 position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="choose-kitchen__btn-lens btn-lens position-absolute"></button>
+                </div>
+
+            </div>
+            <div class="row d-lg-none">
+                <div class="offset-2 col-8 offset-sm-3 col-sm-6 offset-md-4 col-md-4">
+                    <button class="btn btn-outline-tertiary w-100 fs-7 fw-normal py-3" type="button">Показать еще</button>
                 </div>
             </div>
         </div>
