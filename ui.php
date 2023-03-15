@@ -67,6 +67,14 @@
                     <button class="btn-lens"></button>
                 </div>
             </div>
+            <div class="row align-items-center pb-6">
+                <div class="col-4 fw-black">
+                    btn btn-reverse-arrow
+                </div>
+                <div class="col-2 ps-0">
+                    <button class="btn-reverse-arrow"></button>
+                </div>
+            </div>
         </div>
     </section>
 </body>

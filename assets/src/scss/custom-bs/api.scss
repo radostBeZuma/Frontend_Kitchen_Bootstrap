@@ -21,6 +21,12 @@ $utilities: map-merge(
                             responsive: true,
                         ),
         ),
+        "position": map-merge(
+                        map-get($utilities, "position"),
+                        (
+                                responsive: true,
+                        ),
+        ),
     )
 );
 

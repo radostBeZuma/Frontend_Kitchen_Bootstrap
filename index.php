@@ -376,6 +376,396 @@
         </div>
     </section>
 
+    <section class="quiz bg-primary py-10">
+        <div class="container">
+            <div class="row pb-8">
+                <div class="col-12">
+                    <div class="bg-white py-4 px-3">
+                        <h2 class="text-uppercase text-center fs-6 fs-md-9 fs-lg-3 fw-black lh-base mb-0 pb-4 pb-md-6">
+                            Пройдите тест за 1 минуту и <span class="text-primary">узнайте стоимость</span> вашей будущей кухни прямо сейчас
+                        </h2>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img class="d-none d-md-inline" src="/assets/build/img/gift.png" alt="">
+                            <p class="mb-0 fs-6 fs-md-5 ps-3 text-center">И получите один из подарков при заказе кухни.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-quiz-element="1" class="row mb-6">
+                <div class="col-12">
+                    <div class="bg-white rounded-2 position-relative position-md-static">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-7 pe-md-0">
+                                <div class="img-absolute">
+                                    <img class="w-100 pe-lg-6" src="/assets/build/img/quiz.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-5 ps-lg-0 position-md-relative">
+                                <div class="position-absolute top-0 end-0 pe-5 pt-7 pe-md-7 fw-semibold fs-9">
+                                    <span class="text-primary">0</span><span>/</span><span>5</span>
+                                </div>
+                                <div class="row py-7 py-md-16 px-5 px-md-0">
+                                    <div class="col-12 col-md-11 col-xl-10">
+                                        <h2 class="fw-black fs-8 fs-lg-5 fs-xl-9 text-uppercase mb-0">Ответьте на 5 вопросов и получите дизайн проект и расчет стоимость кухни</h2>
+                                        <p class="fs-6 fs-xl-8 pt-3"><span class="text-secondary">+</span> <span class="text-uppercase">гарантированый подарок при заказе кухни!</span></p>
+                                    </div>
+                                    <div class="col-12 col-md-8 col-xl-6 pt-8">
+                                        <button data-quiz-btn-next="2" class="btn btn-primary w-100 fw-semibold" type="button">Узнать стоимость</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-quiz-element="2" class="row mb-6 d-none">
+                <div class="col-12">
+                    <div class="bg-white rounded-2 py-7 position-relative">
+                        <div class="position-absolute top-0 end-0 pe-5 pt-7 pe-md-7 fw-semibold fs-9">
+                            <span class="text-primary">1</span><span>/</span><span>5</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-9 ps-6 ps-md-3 col-md-10 offset-md-1">
+                                <h2 class="text-uppercase fs-6 fs-md-8 fs-lg-9 fw-black mb-0">
+                                    Какое <span class="text-primary">расположение кухни</span> вас интересует
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row py-8">
+                            <div class="col-12 col-md-5 col-lg-3 offset-md-1 px-lg-0 px-xl-3 pb-3 d-flex d-md-block justify-content-center px-6">
+                                <label class="form-control-check-tab" for="kitchen-check-first">
+                                    <input type="radio" id="kitchen-check-first" name="kitchen" value="Прямая">
+                                    <div class="form-control-check-tab-body">
+                                        <p class="fw-black fs-5 py-4 mb-0">Прямая</p>
+                                        <div>
+                                            <img class="img-fluid pt-4" src="/assets/build/img/kitchenform.png" alt="">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4 px-lg-7 px-xl-10 pb-3 d-flex d-md-block justify-content-center px-6">
+                                <label class="form-control-check-tab" for="kitchen-check-two">
+                                    <input type="radio" id="kitchen-check-two" name="kitchen" value="Угловая">
+                                    <div class="form-control-check-tab-body">
+                                        <p class="fw-black fs-5 py-4 mb-0">Угловая</p>
+                                        <div>
+                                            <img class="img-fluid pt-4" src="/assets/build/img/kitchenform-ugl.png" alt="">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-3 offset-md-1 offset-lg-0 px-lg-0 px-xl-3 pb-3 d-flex d-md-block justify-content-center px-6">
+                                <label class="form-control-check-tab" for="kitchen-check-three">
+                                    <input type="radio" id="kitchen-check-three" name="kitchen" value="П-образная">
+                                    <div class="form-control-check-tab-body">
+                                        <p class="fw-black fs-5 py-4 mb-0">П-образная</p>
+                                        <div>
+                                            <img class="img-fluid pt-4" src="/assets/build/img/kitchenform-p.png" alt="">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-end">
+                            <div class="col-10 offset-1 offset-md-0 col-md-5 col-lg-3 d-flex align-items-center justify-content-between">
+                                <button data-quiz-btn-prev="1" class="btn-reverse-arrow" type="button"></button>
+                                <div class="w-75 ps-1 pe-md-7">
+                                    <button data-quiz-btn-next="3" class="btn btn-primary w-100 fw-medium" type="button">Далее →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-quiz-element="3" class="row mb-6 d-none">
+                <div class="col-12">
+                    <div class="bg-white rounded-2 py-7 position-relative">
+                        <div class="position-absolute top-0 end-0 pe-5 pt-7 pe-md-7 fw-semibold fs-9">
+                            <span class="text-primary">2</span><span>/</span><span>5</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-9 ps-6 ps-md-3 col-md-10 offset-md-1">
+                                <h2 class="text-uppercase fs-6 fs-md-8 fs-lg-9 fw-black mb-0">
+                                    Введите <span class="text-primary">размеры</span> кухни:
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row py-8">
+                            <div class="col-12 col-md-4 offset-md-1 d-flex justify-content-center d-md-block pb-4 pb-md-0">
+                                <img class="img-fluid" src="/assets/build/img/kitchenform-sector.png" alt="">
+                            </div>
+                            <div class="col-10 offset-1 col-md-6 offset-md-0 col-lg-5 offset-lg-1 pe-lg-10">
+                                <div class="row pb-4">
+                                    <div class="col-12 d-flex justify-content-between align-items-center pb-4">
+                                        <p class="mb-0 fs-6 fs-md-4 fw-bold">Сторона А (см)</p>
+                                        <input class="form-control ws-70 hs-30 px-2 py-1 text-center fw-medium" type="text" value="140">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="range" class="form-range" min="0" max="280" step="10" value="140">
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-12 d-flex justify-content-between align-items-center pb-4">
+                                        <p class="mb-0 fs-6 fs-md-4 fw-bold">Сторона B (см)</p>
+                                        <input class="form-control ws-70 hs-30 px-2 py-1 text-center fw-medium" type="text" value="0">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="range" class="form-range" min="0" max="280" step="10" value="0">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-between align-items-center pb-4">
+                                        <p class="mb-0 fs-6 fs-md-4 fw-bold">Сторона C (см)</p>
+                                        <input class="form-control ws-70 hs-30 px-2 py-1 text-center fw-medium" type="text" value="280">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="range" class="form-range" min="0" max="280" step="10" value="280">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-end">
+                            <div class="col-10 offset-1 offset-md-0 col-md-5 col-lg-3 d-flex align-items-center justify-content-between">
+                                <button data-quiz-btn-prev="2" class="btn-reverse-arrow" type="button"></button>
+                                <div class="w-75 ps-1 pe-md-7">
+                                    <button data-quiz-btn-next="4" class="btn btn-primary w-100 fw-medium" type="button">Далее →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-quiz-element="4" class="row mb-6 d-none">
+                <div class="col-12">
+                    <div class="bg-white rounded-2 py-7 position-relative">
+                        <div class="position-absolute top-0 end-0 pe-5 pt-7 pe-md-7 fw-semibold fs-9">
+                            <span class="text-primary">3</span><span>/</span><span>5</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-9 ps-6 ps-md-3 col-md-10 offset-md-1">
+                                <h2 class="text-uppercase fs-6 fs-md-8 fs-lg-9 fw-black pb-5 mb-0">
+                                    Выберите <span class="text-primary">бытовую технику</span>, которая будет установлена на кухне
+                                </h2>
+                                <p class="fw-light fs-7 fs-md-8 fs-lg-5 mb-0 text-desc">Выберите один или несколько вариантов</p>
+                            </div>
+                        </div>
+                        <div class="row pt-9 pb-4">
+                            <div class="col-12 offset-sm-1 col-sm-10 col-lg-5 d-sm-flex justify-content-sm-between pb-sm-4 pb-lg-0">
+                                <div class="col-12 col-sm-6 pe-sm-3 px-8 px-sm-0 pb-4 pb-sm-0">
+                                    <label class="form-control-check-bg-fill" for="appliances-first">
+                                        <input type="checkbox" id="appliances-first" name="appliances" value="Встроенный духовой шкаф и варочная поверхность">
+                                        <div class="control-body">
+                                            <img src="/assets/build/img/varochnaya-panel.jpg" alt="">
+                                        </div>
+                                    </label>
+                                    <p class="pt-3 mb-0 text-center fw-medium fs-7">Встроенный духовой шкаф и варочная поверхность</p>
+                                </div>
+                                <div class="col-12 col-sm-6 ps-sm-3 px-8 px-sm-0 pb-4 pb-sm-0">
+                                    <label class="form-control-check-bg-fill" for="appliances-two">
+                                        <input type="checkbox" id="appliances-two" name="appliances" value="Отдельно стоящая плита">
+                                        <div class="control-body">
+                                            <img src="/assets/build/img/free-standing-stove.jpg" alt="">
+                                        </div>
+                                    </label>
+                                    <p class="pt-3 mb-0 text-center fw-medium fs-7">Отдельно стоящая плита</p>
+                                </div>
+                            </div>
+                            <div class="col-12 offset-sm-1 offset-lg-0 col-sm-10 col-lg-5 d-sm-flex justify-content-sm-between">
+                                <div class="col-12 col-sm-6 pe-sm-3 px-8 px-sm-0 pb-4 pb-sm-0">
+                                    <label class="form-control-check-bg-fill" for="appliances-three">
+                                        <input type="checkbox" id="appliances-three" name="appliances" value="Встроеная посудомоечная машинка">
+                                        <div class="control-body">
+                                            <img src="/assets/build/img/dishwasher.jpg" alt="">
+                                        </div>
+                                    </label>
+                                    <p class="pt-3 mb-0 text-center fw-medium fs-7">Встроеная посудомоечная машинка</p>
+                                </div>
+                                <div class="col-12 col-sm-6 ps-sm-3 px-8 px-sm-0 pb-4 pb-sm-0">
+                                    <label class="form-control-check-bg-fill" for="appliances-four">
+                                        <input type="checkbox" id="appliances-four" name="appliances" value="Холодильник">
+                                        <div class="control-body">
+                                            <img src="/assets/build/img/fridge.jpg" alt="">
+                                        </div>
+                                    </label>
+                                    <p class="pt-3 mb-0 text-center fw-medium fs-7">Холодильник</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-end">
+                            <div class="col-10 offset-1 offset-md-0 col-md-5 col-lg-3 d-flex align-items-center justify-content-between">
+                                <button data-quiz-btn-prev="3" class="btn-reverse-arrow" type="button"></button>
+                                <div class="w-75 ps-1 pe-md-7">
+                                    <button data-quiz-btn-next="5" class="btn btn-primary w-100 fw-medium" type="button">Далее →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-quiz-element="5" class="row mb-6 d-none">
+                <div class="col-12">
+                    <div class="bg-white rounded-2 py-7 position-relative">
+                        <div class="position-absolute top-0 end-0 pe-5 pt-7 pe-md-7 fw-semibold fs-9">
+                            <span class="text-primary">4</span><span>/</span><span>5</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-9 ps-6 ps-md-3 col-md-10 offset-md-1">
+                                <h2 class="text-uppercase fs-6 fs-md-8 fs-lg-9 fw-black pb-5 mb-0">
+                                    Укажите планируемы <span class="text-primary">бюджет</span> кухни
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row py-6 py-md-9">
+                            <div class="offset-1 col-10">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 pb-4 pb-lg-8">
+                                        <label class="form-control-check-inline w-100" for="budget-first">
+                                            <input type="radio" id="budget-first" name="budget" value="до 30 000 ₽">
+                                            <div class="control-body">
+                                                <p class="fw-medium fs-7 fs-sm-6 fs-lg-5 mb-0">до 30 000</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-lg-6 pb-4 pb-lg-8">
+                                        <label class="form-control-check-inline w-100" for="budget-two">
+                                            <input type="radio" id="budget-two" name="budget" value="от 80 000 до  150 000 ₽">
+                                            <div class="control-body">
+                                                <p class="fw-medium fs-7 fs-sm-6 fs-lg-5 mb-0">от 80 000 до  150 000</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+                                        <label class="form-control-check-inline w-100" for="budget-three">
+                                            <input type="radio" id="budget-three" name="budget" value="от 30 000 до  80 000 ₽">
+                                            <div class="control-body">
+                                                <p class="fw-medium fs-7 fs-sm-6 fs-lg-5 mb-0">от 30 000 до  80 000</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+                                        <label class="form-control-check-inline w-100" for="budget-four">
+                                            <input type="radio" id="budget-four" name="budget" value="более 150 000 ₽">
+                                            <div class="control-body">
+                                                <p class="fw-medium fs-7 fs-sm-6 fs-lg-5 mb-0">более 150 000</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-end">
+                            <div class="col-10 offset-1 offset-md-0 col-md-5 col-lg-3 d-flex align-items-center justify-content-between">
+                                <button data-quiz-btn-prev="4" class="btn-reverse-arrow" type="button"></button>
+                                <div class="w-75 ps-1 pe-md-7">
+                                    <button data-quiz-btn-next="6" class="btn btn-primary w-100 fw-medium" type="button">Далее →</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-quiz-element="6" class="row mb-6 d-none">
+                <div class="col-12">
+                    <div class="bg-white rounded-2 position-relative position-md-static">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-7 pe-md-0">
+                                <div class="img-absolute">
+                                    <img class="w-100" src="/assets/build/img/sidekix-media.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5 d-flex flex-column justify-content-center position-md-relative">
+                                <div class="position-absolute top-0 end-0 pe-5 pt-7 pe-md-7 fw-semibold fs-9">
+                                    <span class="text-primary">5</span><span>/</span><span>5</span>
+                                </div>
+                                <div class="row py-6 pt-md-12 pb-md-9">
+                                    <div class="offset-1 offset-md-0 col-10">
+                                        <h2 class="fw-black fs-6 fs-md-8 fs-lg-9 text-uppercase text-center mb-0 lh-base">осталось только узнать, <br> как нам с вами связаться</h2>
+                                    </div>
+                                    <div class="offset-1 offset-md-0 col-10 pt-5 pt-md-8">
+                                        <form>
+                                            <input class="form-control bg-wild-sand mb-3 mb-sm-6 fs-7 fs-sm-6" type="email" placeholder="E-mail">
+                                            <input class="form-control bg-wild-sand mb-3 mb-sm-6 fs-7 fs-sm-6" type="text" placeholder="Имя">
+                                            <input class="form-control bg-wild-sand mb-3 mb-sm-6 fs-7 fs-sm-6" type="text" placeholder="+7(_ _ _) _ _ _-_ _ - _ _ ">
+                                            <button data-quiz-btn-next class="btn btn-primary w-100 fw-normal fs-6 mb-3" type="button">Получить рассчет</button>
+                                        </form>
+                                        <p class="text-white-aluminum text-center mb-0 fs-10">Нажимая кнопку “Позвоните мне”, вы соглашаетесь с условиями Политики конфиденциальности</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-6">
+                <div class="col-12 offset-md-3 col-md-6 offset-xl-4 col-xl-4">
+                    <div class="bg-white text-uppercase p-3">
+                        <h2 class="fs-9 fs-md-3 fw-black text-center mb-0">
+                            <span class="text-secondary">Кухни микс</span> - это:
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-row">
+                <div class="col-6 col-lg-3 pe-1 pe-sm-3">
+                    <div class="bg-white d-flex flex-column align-items-center justify-content-between rounded-2 px-2 py-4 h-100">
+                        <img class="icon-card pb-3 pb-lg-4" src="/assets/build/img/installment.png" alt="">
+                        <p class="fs-7 fs-md-6 fs-xl-5 fw-semibold text-uppercase text-center pb-4 mb-0">рассрочка без переплаты</p>
+                        <p class="fs-10 fs-md-7 text-center text-uppercase mb-0">Мы не делаем наценок. <br> Наши цены заморожены с 2015 года</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 ps-1 ps-sm-3">
+                    <div class="bg-white d-flex flex-column align-items-center justify-content-between rounded-2 px-2 py-4 h-100">
+                        <img class="icon-card pb-3 pb-lg-4" src="/assets/build/img/installment.png" alt="">
+                        <p class="fs-7 fs-md-6 fs-xl-5 fw-semibold text-uppercase text-center pb-4 mb-0">СКИДКИ</p>
+                        <p class="fs-10 fs-md-7 text-center text-uppercase mb-0">При заказе кухни матовая столешница 26 мм - в подарок!</p>
+                    </div>
+                </div>
+                <div class="w-100 py-1 py-sm-3 d-lg-none"></div>
+                <div class="col-6 col-lg-3 pe-1 pe-sm-3">
+                    <div class="bg-white d-flex flex-column align-items-center justify-content-between rounded-2 px-2 py-4 h-100">
+                        <img class="icon-card pb-3 pb-lg-4" src="/assets/build/img/installment.png" alt="">
+                        <p class="fs-7 fs-md-6 fs-xl-5 fw-semibold text-uppercase text-center pb-4 mb-0">БОЛЕЕ 500 <br> ЦВЕТОВ ФАСАДОВ</p>
+                        <p class="fs-10 fs-md-7 text-center text-uppercase mb-0">Цветовые решения <br> на любой вкус</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 ps-1 ps-sm-3">
+                    <div class="bg-white d-flex flex-column align-items-center justify-content-between rounded-2 px-2 py-4 h-100">
+                        <img class="icon-card pb-3 pb-lg-4" src="/assets/build/img/installment.png" alt="">
+                        <p class="fs-7 fs-md-6 fs-xl-5 fw-semibold text-uppercase text-center pb-4 mb-0">БЕСПЛАТНЫЙ ЗАМЕР <br> И ДИЗАЙН ПРОЕКТ</p>
+                        <p class="fs-10 fs-md-7 text-center text-uppercase mb-0">Бесплатный дизайн проект <br> кухни за 1 день</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="accessories-n-materials py-10 d-none">
+        <div class="container">
+            <div class="row pb-10">
+                <div class="col-12">
+                    <h2 class="text-uppercase text-center fw-black fs-3">
+                        Фурнитура и <span class="text-primary">материалы</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 shadow p-4">
+                    <img class="float-end" src="/assets/build/img/ldsp.jpg" alt="">
+                    <div>
+                        <h2>ЛДСП</h2>
+                        <ul>
+                            <li>Хорошая устойчивость к температурным перепадам и высокой влажности.</li>
+                            <li>Большой выбор различных цветов. Как и в случае с МДФ, у ЛДСП имеется огромное разнообразие ламинированных поверхностей.</li>
+                            <li>Материал не деформируется в результате механических повреждений.</li>
+                            <li>Материал имеет хорошую устойчивость к царапинам. Кроме того, его можно чистить различными химическими средствами.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="/assets/build/js/main.min.js"></script>
 </body>
 </html>

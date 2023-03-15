@@ -1,0 +1,67 @@
+.quiz {
+    & .img-absolute {
+        height: 300px;
+    }
+
+    & h2 {
+        text-align: left;
+    }
+
+    & .text-desc {
+        text-align: left;
+    }
+
+    & .form-control-check-inline .control-body {
+        padding-left: 40px;
+        padding-right: 5px;
+
+        &:before {
+            left: 10px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    & .icon-card {
+        width: 50px;
+        height: auto;
+    }
+
+    @include media-breakpoint-up(sm) {
+        & .img-absolute {
+            height: 300px;
+        }
+
+        & .form-control-check-inline .control-body {
+            padding-left: 80px;
+            padding-right: 15px;
+
+            &:before {
+                left: 20px;
+                width: 30px;
+                height: 30px;
+            }
+
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        & .img-absolute {
+            height: 100%;
+        }
+
+        & h2 {
+            text-align: center;
+        }
+
+        & .text-desc {
+            text-align: center;
+        }
+
+        & .icon-card {
+            max-width: 100%;
+            width: 80px;
+            height: auto;
+        }
+    }
+}

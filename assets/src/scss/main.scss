@@ -16,6 +16,12 @@
 // новые стили для полей формы
 @import 'custom-bs/form-control.scss';
 
+// новые стили для высоты и ширины
+@import 'custom-bs/width-height.scss';
+
+// новые стили для картинок
+@import 'custom-bs/img.scss';
+
 @import 'allPage.scss';
 
 @import 'blocks/*';

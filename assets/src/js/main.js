@@ -6,3 +6,4 @@
 
 // import blocks
 //= header.js
+//= quiz.js

@@ -16,6 +16,7 @@ $eight:                 #8C8C8C;
 $silver-chalice:        #B2B2B2;
 $wild-sand:             #F4F4F4;
 $white-aluminum:        #B0B0B0;
+$gainsborough:          #E6E6E6;
 
 $white:                 #FFFFFF;
 
@@ -35,6 +36,7 @@ $theme-colors: (
         "six":                  $six,
         "eight":                $eight,
         "white-aluminum":       $white-aluminum,
+        "gainsborough":         $gainsborough,
 );
 
 // цвета конец
@@ -57,7 +59,10 @@ $spacers: (
         10: $spacer * 4,    // 64
         11: $spacer * 4.5,  // 72
         12: $spacer * 5,    // 80
-
+        13: $spacer * 5.5,  // 88
+        14: $spacer * 6,    // 96
+        15: $spacer * 6.5,  // 104
+        16: $spacer * 7     // 112
 );
 
 // паддинги и марджины конец
