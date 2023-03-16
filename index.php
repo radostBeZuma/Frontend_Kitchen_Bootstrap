@@ -861,6 +861,49 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer-top bg-signal-black py-9 position-relative">
+            <img class="footer-top__img position-absolute d-none d-xl-block" src="/assets/build/img/footer-kitchen.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-8">
+                        <h2 class="fw-black fs-9 fs-md-4 fs-xl-3 text-uppercase text-white pb-6">
+                            <span class="text-secondary">Проконсультируем</span> по любым вопросам
+                        </h2>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 col-md-8 col-xl-12 pb-xl-6">
+                                    <div class="row h-100 justify-content-between">
+                                        <div class="col-12 col-xl-6 pb-6 pb-lg-3 pb-xl-0">
+                                            <input class="form-control rounded-4 fs-6 fs-md-5 text-white-aluminum" type="text" placeholder="Ваше имя">
+                                        </div>
+                                        <div class="col-12 col-xl-6">
+                                            <input class="form-control rounded-4 fs-6 fs-md-5 text-white-aluminum" type="number" placeholder="+7(_ _ _) _ _ _-_ _ - _ _ ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 d-none d-md-block d-xl-none">
+                                    <img class="img-fluid" src="/assets/build/img/footer-kitchen.png" alt="">
+                                </div>
+                                <div class="col-12 pb-6 pt-6 pt-xl-0">
+                                    <textarea class="footer-top__form-textarea form-control rounded-4 fs-6 fs-md-5 text-white-aluminum" placeholder="Кратко опишите Ваш вопрос" rows="5"></textarea>
+                                </div>
+                                <div class="col-12 col-md-6 pb-6 pb-md-0">
+                                    <button class="btn btn-primary w-100 fs-5 shadow-none fs-6 fs-md-5" type="button">Получить консультацию</button>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p class="footer-top__form-desc mb-0 fs-7 text-white-aluminum">Нажимая кнопку "Получить консультацию" вы даете согласие на обработку персональных данных в соответствии с политикой конфиденциальности</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom"></div>
+    </footer>
+
     <script src="/assets/build/js/main.min.js"></script>
 </body>
 </html>

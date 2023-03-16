@@ -1,0 +1,24 @@
+.footer-top {
+    &__img {
+        top: 50%;
+        left: 65%;
+        bottom: 0;
+        width: 360px;
+        height: auto;
+        transform: translateY(-50%);
+    }
+
+    &__form-textarea {
+        resize: vertical;
+
+        &::-webkit-resizer {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__form-desc {
+            text-align: center;
+        }
+    }
+}
