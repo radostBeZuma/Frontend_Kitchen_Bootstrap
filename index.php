@@ -30,7 +30,7 @@
             <div class="container d-block">
                 <div class="row">
                     <a class="col-4 col-sm-3 col-lg-2 navbar-brand me-0" href="#">
-                        <img class="w-100" src="/assets/build/img/logo.jpg" alt="">
+                        <img class="w-100" src="/assets/build/img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler col-2 col-sm-2 col-md-1 order-md-3 order-xl-0 offset-6 offset-sm-7 offset-md-0 border-0 p-0 js-header-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
                         <span class="navbar-toggler-icon"></span>
@@ -898,10 +898,64 @@
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
-        <div class="footer-bottom"></div>
+        <div class="footer-bottom bg-tertiary py-6 py-md-8 py-lg-4">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-1 offset-md-0 col-10 col-md-6 col-lg-3 pb-7 pb-md-0">
+                        <div class="row">
+                            <div class="offset-3 offset-md-0 col-6 col-md-6 col-lg-8 pb-6 d-flex justify-content-center d-md-block">
+                                <img class="img-fluid" src="/assets/build/img/logo.png" alt="" width="150px">
+                            </div>
+                            <div class="offset-1 offset-md-0 col-10 col-md-12">
+                                <p class="footer-bottom__address mb-0 text-white">г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж, бутик № 20а</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex d-md-block flex-column align-items-center offset-1 offset-md-0 col-10 col-md-6 offset-lg-1 col-lg-3 pb-7 pb-md-0">
+                        <p class="text-six fs-5 fw-semibold mb-0 pb-5">Разделы :</p>
+                        <a class="text-white mb-0 pb-5 d-block" href="">Каталог товаров</a>
+                        <a class="text-white mb-0 pb-5 d-block" href="">Кухонные модули</a>
+                        <a class="text-white mb-0 pb-5 d-block" href="">Декоры МДФ/Лдсп</a>
+                        <a class="text-white mb-0 d-block" href="">Готовые решения</a>
+                    </div>
+                    <div class="offset-1 offset-md-0 col-10 col-md-12 col-lg-5 d-flex d-md-block flex-column align-items-center">
+                        <p class="text-six fs-5 fw-semibold mb-0 pb-5">Контакты :</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 d-flex d-md-block flex-column align-items-center pb-3 pb-md-0">
+                                        <p>
+                                            <img src="/assets/build/img/email.png" alt="">
+                                            <a class="text-white ms-1" href="mailto:uhninv@mail.ru">uhninv@mail.ru</a>
+                                        </p>
+                                        <p>
+                                            <img src="/assets/build/img/phone.png" alt="">
+                                            <a class="text-white ms-1" href="tel:83466682015">8 (3466) 68-20-15</a>
+                                        </p>
+                                        <p class="mb-0">
+                                            <a class="text-white ms-6" href="tel:83466682015">8 (3466) 68-20-15</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 d-flex d-md-block flex-column align-items-center">
+                                        <p>
+                                            <img src="/assets/build/img/vk.png" alt="">
+                                            <a class="text-white ms-1" href="">vk.com/kuhninv</a>
+                                        </p>
+                                        <p>
+                                            <img src="/assets/build/img/ok.png" alt="">
+                                            <a class="text-white ms-1" href="">ok.ru/kuhninv</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="/assets/build/js/main.min.js"></script>

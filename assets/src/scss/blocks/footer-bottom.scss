@@ -1,0 +1,9 @@
+.footer-bottom {
+
+
+    @include media-breakpoint-down(md) {
+        &__address {
+            text-align: center;
+        }
+    }
+}
