@@ -740,26 +740,121 @@
         </div>
     </section>
 
-    <section class="accessories-n-materials py-10 d-none">
+    <section class="accessories-n-materials py-6 py-md-7 py-xl-14">
         <div class="container">
-            <div class="row pb-10">
+            <div class="row pb-7 pb-xl-10">
                 <div class="col-12">
-                    <h2 class="text-uppercase text-center fw-black fs-3">
+                    <h2 class="text-uppercase text-center fw-black fs-9 fs-md-4 fs-xl-3">
                         Фурнитура и <span class="text-primary">материалы</span>
                     </h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4 shadow p-4">
-                    <img class="float-end" src="/assets/build/img/ldsp.jpg" alt="">
-                    <div>
-                        <h2>ЛДСП</h2>
-                        <ul>
-                            <li>Хорошая устойчивость к температурным перепадам и высокой влажности.</li>
-                            <li>Большой выбор различных цветов. Как и в случае с МДФ, у ЛДСП имеется огромное разнообразие ламинированных поверхностей.</li>
-                            <li>Материал не деформируется в результате механических повреждений.</li>
-                            <li>Материал имеет хорошую устойчивость к царапинам. Кроме того, его можно чистить различными химическими средствами.</li>
-                        </ul>
+            <div class="row flex-row">
+                <div class="col-12 col-sm-6 col-xl-4 mb-4">
+                    <div class="accessories-n-materials__item h-100 shadow p-4">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <div>
+                                <img class="float-end" src="/assets/build/img/ldsp.png" alt="" width="130px">
+                                <div>
+                                    <p class="fs-5 fw-bold mb-0 text-uppercase">ЛДСП</p>
+                                    <ul class="list-dash fs-7 pt-6 pb-4 ps-0 mb-0">
+                                        <li>Хорошая устойчивость к температурным перепадам и высокой влажности.</li>
+                                        <li>Большой выбор различных цветов. Как и в случае с МДФ, у ЛДСП имеется огромное разнообразие ламинированных поверхностей.</li>
+                                        <li>Материал не деформируется в результате механических повреждений.</li>
+                                        <li>Материал имеет хорошую устойчивость к царапинам. Кроме того, его можно чистить различными химическими средствами.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 py-2 fs-7 fs-md-6" type="button">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4 mb-4">
+                    <div class="accessories-n-materials__item h-100 shadow p-4">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <div>
+                                <img class="float-end" src="/assets/build/img/mdf.png" alt="" width="130px">
+                                <div>
+                                    <p class="fs-5 fw-bold mb-0 text-uppercase">Мдф</p>
+                                    <ul class="list-dash fs-7 pt-6 pb-4 ps-0 mb-0">
+                                        <li>Широкие дизайнерские возможности. Чаще всего МДФ используют как основу,  отделывая пластиком, акрилом, различными типами пленок. Это позволяет создать яркие уникальные дизайны. Часто гарнитуры из МДФ имитируют натуральное дерево, камень, металл и другие материалы.</li>
+                                        <li>Качественная мебель из МДФ может служить до 20 лет без потери свойств.</li>
+                                        <li>МФД не капризен и не требует специальных моющих средств. Правда, необходимо учесть, что покрытие может оказаться более требовательным.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 py-2 fs-7 fs-md-6" type="button">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4 mb-4">
+                    <div class="accessories-n-materials__item h-100 shadow p-4">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <div>
+                                <img class="float-end" src="/assets/build/img/enamel.png" alt="" width="130px">
+                                <div>
+                                    <p class="fs-5 fw-bold mb-0 text-uppercase">Эмаль</p>
+                                    <ul class="list-dash fs-7 pt-6 pb-4 ps-0 mb-0">
+                                        <li>Все больше у покупателей становятся популярными, кухни с крашенными фасадами. Крашеные кухонные. фасады изготавливают из МДФ, поверхность, которой покрывается эмалью.</li>
+                                        <li>Специальная краска и финишный слой лака обеспечивают надежную защиту от влаги, загрязнений, температурных колебаний в определенных</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 py-2 fs-7 fs-md-6" type="button">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4 mb-4">
+                    <div class="accessories-n-materials__item h-100 shadow p-4">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <div>
+                                <img class="float-end" src="/assets/build/img/blum.png" alt="" width="130px">
+                                <div>
+                                    <p class="fs-5 fw-bold mb-0 text-uppercase">фурнитура blum</p>
+                                    <ul class="list-dash fs-7 pt-6 pb-4 ps-0 mb-0">
+                                        <li>Высококачественная австрийская фурнитура для современной мебели. Фурнитура «Блюм» для кухни позволяет:</li>
+                                        <li>создавать конструкции повышенной прочности и функциональности;</li>
+                                        <li>превращать «мертвые» зоны в полезные;</li>
+                                        <li>реализовывать любые дизайнерские задумки.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 py-2 fs-7 fs-md-6" type="button">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4 mb-4">
+                    <div class="accessories-n-materials__item h-100 shadow p-4">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <div>
+                                <img class="float-end" src="/assets/build/img/hettich.png" alt="" width="130px">
+                                <div>
+                                    <p class="fs-5 fw-bold mb-0 text-uppercase">фурнитура Hettich</p>
+                                    <ul class="list-dash fs-7 pt-6 pb-4 ps-0 mb-0">
+                                        <li>это германская фурнитура с идеальным сочетанием интеллектуальных технологий, функциональности и дизайна. </li>
+                                        <li>мебельные петли, системы ящиков, фурнитура для складных и раздвижных дверей, подъемные механизмы, соединительная фурнитура, производственная техника, механизмы и наполнение для кухонной мебели</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 py-2 fs-7 fs-md-6" type="button">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4 mb-4">
+                    <div class="accessories-n-materials__item h-100 shadow p-4">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <div>
+                                <img class="float-end" src="/assets/build/img/boyard.png" alt="" width="130px">
+                                <div>
+                                    <p class="fs-5 fw-bold mb-0 text-uppercase">фурнитура BOYARD</p>
+                                    <ul class="list-dash fs-7 pt-6 pb-4 ps-0 mb-0">
+                                        <li>Передовые технологические разработки, позволяющие выпускать качественные изделия по доступной цене. </li>
+                                        <li>Производство продукции в соответствии с международными стандартами качества. Широкий ассортимент актуальной фурнитуры для мебели и интерьеров различных стилевых направлений, разнообразные по формам, размерам, типу покрытий и назначению.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 py-2 fs-7 fs-md-6" type="button">Рассчитать стоимость</button>
+                        </div>
                     </div>
                 </div>
             </div>

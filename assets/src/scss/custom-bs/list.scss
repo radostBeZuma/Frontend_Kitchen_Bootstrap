@@ -1,0 +1,13 @@
+.list-dash {
+    list-style-type: none;
+
+    & li {
+        &:not(:last-child) {
+            padding-bottom: 15px;
+        }
+
+        &:before {
+            content: "- ";
+        }
+    }
+}
