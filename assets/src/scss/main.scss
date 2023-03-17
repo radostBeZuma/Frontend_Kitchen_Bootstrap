@@ -25,6 +25,9 @@
 // новые стили для списков
 @import 'custom-bs/list.scss';
 
+// переопределение для dropdown
+@import 'custom-bs/dropdown.scss';
+
 @import 'allPage.scss';
 
 @import 'blocks/*';

@@ -29,7 +29,7 @@
         <nav class="navbar navbar-expand-xl navbar-light bg-light bg-white">
             <div class="container d-block">
                 <div class="row">
-                    <a class="col-4 col-sm-3 col-lg-2 navbar-brand me-0" href="#">
+                    <a class="col-4 col-sm-3 col-lg-2 navbar-brand me-0" href="/index.php">
                         <img class="w-100" src="/assets/build/img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler col-2 col-sm-2 col-md-1 order-md-3 order-xl-0 offset-6 offset-sm-7 offset-md-0 border-0 p-0 js-header-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
@@ -40,7 +40,7 @@
                         <div class="header-navbar__nav-item js-header-nav-item d-flex d-xl-block flex-column justify-content-around bg-white">
                             <ul class="navbar-nav pt-8 pt-xl-0 align-items-center align-items-xl-baseline">
                                 <li class="nav-item">
-                                    <a class="nav-link fs-8 fs-xl-7" href="#">Каталог товаров</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="/catalog.php">Каталог товаров</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link fs-8 fs-xl-7" href="#">Кухонные модули</a>
@@ -688,7 +688,7 @@
                                             <input class="form-control bg-wild-sand mb-3 mb-sm-6 fs-7 fs-sm-6" type="text" placeholder="+7(_ _ _) _ _ _-_ _ - _ _ ">
                                             <button data-quiz-btn-next class="btn btn-primary w-100 fw-normal fs-6 mb-3" type="button">Получить рассчет</button>
                                         </form>
-                                        <p class="text-white-aluminum text-center mb-0 fs-10">Нажимая кнопку “Позвоните мне”, вы соглашаетесь с условиями Политики конфиденциальности</p>
+                                        <p class="text-white-aluminum text-center mb-0 fs-10">Нажимая кнопку “Получить рассчет”, вы соглашаетесь с условиями Политики конфиденциальности</p>
                                     </div>
 
                                 </div>

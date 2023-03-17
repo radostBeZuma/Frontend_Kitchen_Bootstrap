@@ -1,0 +1,26 @@
+.catalog {
+    & .card {
+        &:hover {
+            outline: 2px solid $secondary;
+            box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.05);
+        }
+    }
+
+    & .card-title {
+        color: $tertiary;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__title {
+            text-align: center;
+        }
+
+        &__desc {
+            text-align: center;
+        }
+    }
+}
