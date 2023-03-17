@@ -43,7 +43,7 @@
                                     <a class="nav-link fs-8 fs-xl-7" href="/catalog.php">Каталог товаров</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fs-8 fs-xl-7" href="#">Кухонные модули</a>
+                                    <a class="nav-link fs-8 fs-xl-7" href="/kitchen-modules.php">Кухонные модули</a>
                                     </li>
                                 <li class="nav-item">
                                     <a class="nav-link fs-8 fs-xl-7" href="#">Декоры</a>

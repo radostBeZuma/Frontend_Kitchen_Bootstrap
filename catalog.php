@@ -41,10 +41,10 @@
                     <div class="header-navbar__nav-item js-header-nav-item d-flex d-xl-block flex-column justify-content-around bg-white">
                         <ul class="navbar-nav pt-8 pt-xl-0 align-items-center align-items-xl-baseline">
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7 active" href="#">Каталог товаров</a>
+                                <a class="nav-link fs-8 fs-xl-7 active" href="/catalog.php">Каталог товаров</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7" href="#">Кухонные модули</a>
+                                <a class="nav-link fs-8 fs-xl-7" href="/kitchen-modules.php">Кухонные модули</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fs-8 fs-xl-7" href="#">Декоры</a>
