@@ -9,7 +9,9 @@
     box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
     transition: background-color 0.5s;
 
-    &:hover {
+    &:hover,
+    &:active
+    {
         background-color: #FFE888;
     }
 }
@@ -19,15 +21,8 @@
     transition: background-color 0.5s;
 }
 
-.btn-quaternary {
-    color: $eight;
-    font-weight: $font-weight-normal;
-    transition: background-color 0.5s;
-
-    &:hover {
-        background-color: $primary;
-        font-weight: $font-weight-bold;
-    }
+.btn-quaternary-custom {
+    @include button-variant($quaternary, transparent, $six, $secondary, transparent, $white, $secondary, transparent, $white);
 }
 
 .btn-plus {
@@ -41,7 +36,9 @@
     border-radius: 100%;
     transition: background-color 0.5s;
 
-    &:hover {
+    &:hover,
+    &:active,
+    {
         background-color: $secondary;
         background-image: url("data:image/svg+xml, %3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078' stroke='%23F4F4F4' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E")
     }
@@ -58,8 +55,29 @@
     border-radius: 100%;
     transition: background-color 0.5s;
 
-    &:hover {
+    &:hover,
+    &:active,
+    {
         background-color: #ffe888;
+    }
+}
+
+.btn-tertiary-lens {
+    width: 30px;
+    height: 30px;
+    background-color: $tertiary;
+    background-image: url('data:image/svg+xml, %3Csvg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M5.74312 0.324219C8.54039 0.324219 10.8066 2.59039 10.8066 5.38766C10.8066 6.5968 10.3837 7.70539 9.67734 8.5768L13.1578 12.0573C13.3641 12.2635 13.3641 12.5961 13.1578 12.8023C12.9516 13.0086 12.619 13.0086 12.4127 12.8023L8.93226 9.32187C8.06086 10.0283 6.95226 10.4511 5.74312 10.4511C2.94586 10.4511 0.679685 8.18492 0.679685 5.38766C0.679685 2.59039 2.94843 0.324219 5.74312 0.324219ZM5.74312 9.39922C7.95773 9.39922 9.75469 7.60226 9.75469 5.38766C9.75469 3.17305 7.95773 1.37609 5.74312 1.37609C3.52851 1.37609 1.73156 3.17305 1.73156 5.38766C1.73156 7.60226 3.52851 9.39922 5.74312 9.39922Z" fill="%23FBD846"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    border-radius: 100%;
+    transition: background-color 0.5s;
+
+    &:hover,
+    &:active,
+    {
+        background-color: $primary;
+        background-image: url('data:image/svg+xml, %3Csvg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M5.74312 0.324219C8.54039 0.324219 10.8066 2.59039 10.8066 5.38766C10.8066 6.5968 10.3837 7.70539 9.67734 8.5768L13.1578 12.0573C13.3641 12.2635 13.3641 12.5961 13.1578 12.8023C12.9516 13.0086 12.619 13.0086 12.4127 12.8023L8.93226 9.32187C8.06086 10.0283 6.95226 10.4511 5.74312 10.4511C2.94586 10.4511 0.679685 8.18492 0.679685 5.38766C0.679685 2.59039 2.94843 0.324219 5.74312 0.324219ZM5.74312 9.39922C7.95773 9.39922 9.75469 7.60226 9.75469 5.38766C9.75469 3.17305 7.95773 1.37609 5.74312 1.37609C3.52851 1.37609 1.73156 3.17305 1.73156 5.38766C1.73156 7.60226 3.52851 9.39922 5.74312 9.39922Z" fill="%23333333"/%3E%3C/svg%3E')
     }
 }
 
@@ -74,8 +92,15 @@
     border-radius: 100%;
     transition: background-color 0.5s;
 
-    &:hover {
+    &:hover,
+    &:active,
+    {
         background-color: $tertiary;
         background-image: url('data:image/svg+xml, %3Csvg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M2.93438 8.61656L0.154375 4.51656L2.93438 0.376562H4.67438L2.05438 4.51656L4.67438 8.61656H2.93438ZM1.65438 5.23656V3.77656H8.89438V5.23656H1.65438Z" fill="%23FFFFFF"/%3E%3C/svg%3E')
     }
+}
+
+.btn-custom-quaternary-i-primary {
+    @include button-variant($quaternary, transparent, $tertiary, $primary, transparent, $tertiary, $primary, transparent, $tertiary);
+
 }

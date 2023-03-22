@@ -37,10 +37,10 @@
             </div>
             <div class="row align-items-center pb-6">
                 <div class="col-4 fw-black">
-                    btn btn-quarterny
+                    btn btn-quarterny-custom
                 </div>
                 <div class="col-2 ps-0">
-                    <button class="btn btn-quaternary w-100">Оставьте заявку</button>
+                    <button class="btn btn-quaternary-custom w-100">Оставьте заявку</button>
                 </div>
             </div>
             <div class="row align-items-center pb-6">

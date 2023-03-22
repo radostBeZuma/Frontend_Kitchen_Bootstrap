@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="/assets/build/css/style.min.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
 
     <title>Каталог</title>
 </head>
@@ -47,7 +48,7 @@
                                 <a class="nav-link fs-8 fs-xl-7" href="/kitchen-modules.php">Кухонные модули</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7" href="#">Декоры</a>
+                                <a class="nav-link fs-8 fs-xl-7" href="/decors.php">Декоры</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fs-8 fs-xl-7" href="#">Фотопечать</a>
