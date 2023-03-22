@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/build/css/style.min.css">
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <title>Кухонные модули</title>
+    <title>Фотопечать</title>
 </head>
 <body>
 
@@ -45,10 +45,10 @@
                                 <a class="nav-link fs-8 fs-xl-7" href="/catalog.php">Каталог товаров</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7 active" href="/kitchen-modules.php">Кухонные модули</a>
+                                <a class="nav-link fs-8 fs-xl-7" href="/kitchen-modules.php">Кухонные модули</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7" href="/decors.php">Декоры</a>
+                                <a class="nav-link fs-8 fs-xl-7 active" href="/decors.php">Декоры</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fs-8 fs-xl-7" href="/photoprint.php">Фотопечать</a>
@@ -85,105 +85,7 @@
     </nav>
 </header>
 
-<section class="kitchen-modules py-6 py-sm-7 py-lg-12">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <h2 class="fw-black fs-9 fs-md-4 fs-lg-3 text-uppercase mb-0 pb-5 pb-xl-6">Кухонные модули</h2>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-12">
-                        <p class="mb-0 pt-sm-4 pt-lg-0 pb-3 pb-xl-4 fs-6 fs-md-8">
-                            <span class="fw-medium">Хотите заказать кухню по своим размерам?</span> Для этого Вы можете выбрать кухонные модули, их размеры, цвет фасадов и столешницы и мы рассчитаем стоимость вышей кухни.
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-6 d-lg-none">
-                        <div class="kitchen-modules__img-wrap bg-primary w-100 position-relative">
-                            <img class="kitchen-modules__img-desc" src="/assets/build/img/kitchen-module.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <p class="mb-0 pt-3 pt-md-6 pt-lg-0 fs-6 fs-md-8">
-                    <span class="fw-medium">Специально для Вашего удобства</span> в этом разделе мы собрали схемы готовых вариантов кухонных модулей для индивидуального подбора размеров кухонь. Данные схемы можно использовать, выбирая модули для любого кухонного гарнитура.
-                </p>
-            </div>
-            <div class="col-6 d-none d-lg-block">
-                <div class="bg-primary w-100 h-100 position-relative">
-                    <img class="kitchen-modules__img-desc" src="/assets/build/img/kitchen-module.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-12 pt-6">
-                <p class="mb-0 text-center fs-6 fs-md-8">
-                    Вы можете подобрать кухонные модули уже по готовым вариантам или выбрать модули по своему усмотрению на Ваш вкус:
-                </p>
-            </div>
-        </div>
-        <div class="row py-7">
-            <div class="col-12 pb-7">
-                <img class="img-fluid w-100" src="/assets/build/img/drawing-of-kitchen-modules.jpg" alt="">
-            </div>
-            <div class="offset-sm-2 offset-md-3 offset-xl-4 col-12 col-sm-8 col-md-6 col-xl-4">
-                <a class="btn btn-secondary shadow-none w-100 fs-11 fs-sm-7" href="">Скачать полноразмерный вариант</a>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="form-module-selection bg-primary py-8">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <form class="bg-quaternary rounded-5 py-6" method="" action="">
-                    <div class="row">
-                        <div class="col-12 col-lg-8">
-                            <div class="px-4">
-                                <h2 class="fw-black fs-6 fs-sm-8 fs-lg-9 lh-base text-uppercase pb-5 mb-0">
-                                    Выбрали модули?
-                                </h2>
-                                <p class="text-uppercase mb-0 pb-5 fs-7 fs-lg-5">
-                                    Рассчитаем их стоимость
-                                </p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-12 order-1 order-md-0">
-                                    <div class="row ps-md-4 pb-5 px-4 px-md-0">
-                                        <div class="col-md-12 col-lg-6 pb-4 pb-lg-0 pe-md-0">
-                                            <input class="form-control" type="text" placeholder="Ваше имя">
-                                        </div>
-                                        <div class="col-lg-6 pe-md-0">
-                                            <input class="form-control" type="text" placeholder="+7(_ _ _) _ _ _-_ _ - _ _ ">
-                                        </div>
-                                    </div>
-                                    <div class="row ps-md-4 px-4 px-md-0">
-                                        <div class="col-md-12 col-lg-6 pb-7 pb-lg-0 pe-md-0 d-flex align-items-center">
-                                            <div class="form-control-file d-flex align-items-center">
-                                                <div>
-                                                    <label class="file-icon" for="sketch"></label>
-                                                    <input class="form-control-file" type="file" id="sketch">
-                                                </div>
-                                                <label class="file-text fs-6 fs-sm-8 px-3 px-xl-5 text-white-aluminum" for="sketch">Вы можете приложить эскиз или фото</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-lg-6 pe-md-0">
-                                            <button class="btn btn-primary w-100 fs-6 fs-md-8 fs-lg-5" type="button">Рассчитать стоимость</button>
-                                            <p class="fs-10 text-center pt-3 text-white-aluminum">Нажимая кнопку “Рассчитать стоимость”, вы соглашаетесь с условиями Политики конфиденциальности</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 offset-sm-2 offset-md-0 col-sm-8 col-md-6 d-block d-lg-none order-0 order-md-1">
-                                    <img class="w-100 px-6 px-sm-6" src="/assets/build/img/form-calc-cost-img.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 d-none d-lg-flex align-items-lg-center">
-                            <img class="w-100" src="/assets/build/img/form-calc-cost-img.png" alt="">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-    </div>
-</section>
 
 <footer class="footer">
     <div class="footer-top bg-signal-black py-9 position-relative">

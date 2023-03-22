@@ -51,7 +51,7 @@
                                 <a class="nav-link fs-8 fs-xl-7" href="/decors.php">Декоры</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7" href="#">Фотопечать</a>
+                                <a class="nav-link fs-8 fs-xl-7" href="/photoprint.php">Фотопечать</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fs-8 fs-xl-7" href="#">Готовые решения</a>
