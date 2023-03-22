@@ -85,7 +85,50 @@
     </nav>
 </header>
 
+<section class="complete-solution py-6 py-md-9">
+    <div class="container">
+        <h2 class="fw-black fs-4 fs-md-5 fs-lg-3 text-uppercase pb-6 mb-0">Готовые решения</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 pb-5 ">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-first.jpg" alt="">
+                    <button class="position-absolute bottom-0 end-0 btn-plus btn-plus-primary mb-3 me-3" type="button"></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 pb-5">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-five.jpg" alt="">
+                    <button class="position-absolute bottom-0 end-0 btn-plus btn-plus-primary mb-3 me-3" type="button"></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 pb-5">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-four.jpg" alt="">
+                    <button class="position-absolute bottom-0 end-0 btn-plus btn-plus-primary mb-3 me-3" type="button"></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 pb-5">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-six.jpg" alt="">
+                    <button class="position-absolute bottom-0 end-0 btn-plus btn-plus-primary mb-3 me-3" type="button"></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 pb-5">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-three.jpg" alt="">
+                    <button class="position-absolute bottom-0 end-0 btn-plus btn-plus-primary mb-3 me-3" type="button"></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 pb-5">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="/assets/build/img/kitchen-loft-two.jpg" alt="">
+                    <button class="position-absolute bottom-0 end-0 btn-plus btn-plus-primary mb-3 me-3" type="button"></button>
+                </div>
 
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="footer">
     <div class="footer-top bg-signal-black py-9 position-relative">

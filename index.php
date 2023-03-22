@@ -148,7 +148,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+                                <button class="btn-plus btn-plus-wild-sand border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+                                <button class="btn-plus btn-plus-wild-sand border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+                                <button class="btn-plus btn-plus-wild-sand border-0 text-wild-sand rounded-circle" type="button"></button>
 
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+                                <button class="btn-plus btn-plus-wild-sand border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+                                <button class="btn-plus btn-plus-wild-sand border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
                                     <div class="popular-models__card-old-price fw-semibold text-silver-chalice text-decoration-line-through">19 899</div>
                                     <div class="popular-models__card-now-price fw-semibold text-secondary fs-4">14 900</div>
                                 </div>
-                                <button class="btn-plus border-0 text-wild-sand rounded-circle" type="button"></button>
+                                <button class="btn-plus btn-plus-wild-sand border-0 text-wild-sand rounded-circle" type="button"></button>
                             </div>
                         </div>
                     </div>

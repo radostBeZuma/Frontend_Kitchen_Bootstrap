@@ -28,13 +28,29 @@
 .btn-plus {
     width: 40px;
     height: 40px;
-    background-color: $wild-sand;
     background-image: url("data:image/svg+xml, %3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078' stroke='%2399CB38' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: center;
     border: 0;
     border-radius: 100%;
     transition: background-color 0.5s;
+}
+
+.btn-plus-primary {
+    background-color: $tertiary;
+    background-image: url("data:image/svg+xml, %3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078' stroke='%23FBD846' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E");
+
+    &:hover,
+    &:active,
+    {
+        background-color: $primary;
+        background-image: url("data:image/svg+xml, %3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078' stroke='%23333333' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E")
+    }
+}
+
+.btn-plus-wild-sand {
+    background-color: $wild-sand;
+    background-image: url("data:image/svg+xml, %3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.695312 10.5008H20.3098M10.5026 0.693359V20.3078' stroke='%2399CB38' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E");
 
     &:hover,
     &:active,
