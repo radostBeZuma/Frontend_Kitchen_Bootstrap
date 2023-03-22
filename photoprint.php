@@ -48,10 +48,10 @@
                                 <a class="nav-link fs-8 fs-xl-7" href="/kitchen-modules.php">Кухонные модули</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7 active" href="/decors.php">Декоры</a>
+                                <a class="nav-link fs-8 fs-xl-7" href="/decors.php">Декоры</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-8 fs-xl-7" href="/photoprint.php">Фотопечать</a>
+                                <a class="nav-link fs-8 fs-xl-7 active" href="/photoprint.php">Фотопечать</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fs-8 fs-xl-7" href="#">Готовые решения</a>
@@ -85,7 +85,51 @@
     </nav>
 </header>
 
+<section class="photoprint py-6 py-md-9">
+    <div class="container">
+        <h2 class="fw-black fs-4 fs-md-5 fs-lg-3 text-uppercase text-center pb-6 mb-0">Фотопечать</h2>
+        <div class="pb-6 fs-6 fs-md-8">
+            <p>Решили украсить фасады кухни или кухонный фартук красивым изображением? Тогда вам необходимо определиться, какую картинку выбрать. В нашем каталоге изображений для фотопечати присутствует в огромном количестве изображения кухонной тематики, это фрукты, кофе, чай, разнообразные овощи.</p>
+            <p>
+                Мы не ограничиваем Ваш выбор изображениями из нашего банка фото высококачественных изображений для фотопечати. Вы всегда можете воспользоваться сторонними ресурсами, например depositphotos.com либо shutterstock.com и выбрать изображение самостоятельно.</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 pb-7">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle w-100 text-start d-flex justify-content-between align-items-center"
+                            type="button"
+                            id="dropdownMenuKitchen"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Все
+                    </button>
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuKitchen">
+                        <li><button class="dropdown-item" type="button">Природа</button></li>
+                        <li><button class="dropdown-item" type="button">Город</button></li>
+                        <li><button class="dropdown-item" type="button">Цветы</button></li>
+                        <li><button class="dropdown-item" type="button">Фрукты</button></li>
+                        <li><button class="dropdown-item" type="button">Прочее</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-5">
+                <img class="img-fluid" src="/assets/build/img/photoprint-1.jpg" alt="">
+            </div>
+            <div class="col-12 pb-5">
+                <img class="img-fluid" src="/assets/build/img/photoprint-2.jpg" alt="">
+            </div>
+            <div class="col-12 pb-5">
+                <img class="img-fluid" src="/assets/build/img/photoprint-3.jpg" alt="">
+            </div>
+            <div class="col-12 pb-5">
+                <img class="img-fluid" src="/assets/build/img/photoprint-4.jpg" alt="">
+            </div>
+        </div>
 
+    </div>
+</section>
 
 <footer class="footer">
     <div class="footer-top bg-signal-black py-9 position-relative">
