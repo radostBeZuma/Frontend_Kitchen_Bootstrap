@@ -33,7 +33,7 @@
                     <a class="col-4 col-sm-3 col-lg-2 navbar-brand me-0" href="/index.php">
                         <img class="w-100" src="/assets/build/img/logo.png" alt="">
                     </a>
-                    <button class="navbar-toggler col-2 col-sm-2 col-md-1 order-md-3 order-xl-0 offset-6 offset-sm-7 offset-md-0 border-0 p-0 js-header-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                    <button class="navbar-toggler col-2 col-sm-2 col-md-1 order-md-3 order-xl-0 offset-6 offset-sm-7 offset-md-8 offset-lg-9 border-0 p-0 js-header-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
                         <span class="navbar-toggler-icon"></span>
                         <span class="btn-close" type="button" aria-label="сlose"></span>
                     </button>
@@ -76,9 +76,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xl-2 offset-md-4 offset-lg-5 offset-xl-0 d-none d-md-flex align-items-center ps-0">
-                        <button class="btn btn-outline-primary w-100">Заказать звонок</button>
+                    <div class="col-xl-2 d-none d-xl-flex align-items-center ps-0">
+                        <button class="btn btn-outline-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#headerOrderСall">Заказать звонок</button>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -952,12 +953,42 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    <div class="modal modal-md fade" id="headerOrderСall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title fw-bold fs-3" id="exampleModalLabel">Заказать звонок</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="pb-5 d-flex">
+                        <svg class="flex-shrink-0 me-2" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.3234 21.552L14.6118 18.2636L20.0462 22.0538L18.8271 23.2728C18.0151 24.0848 16.8232 24.3861 15.7229 24.0574C12.3591 23.0525 9.3374 21.2102 6.65771 18.5305C3.97802 15.8508 2.13573 12.8291 1.13084 9.46531C0.80213 8.36502 1.10337 7.17309 1.91537 6.36109L3.13443 5.14203L6.92462 10.5764L3.63623 13.8648M15.7653 14.3722L15.8088 13.752C15.9963 11.0789 13.7149 8.88976 11.0518 9.18737M19.5698 14.8218L19.6484 13.7009C19.9872 8.87023 15.8645 4.91421 11.0519 5.45205M23.9751 15.2901L24.0943 13.5896C24.6084 6.26052 18.3534 0.258462 11.0517 1.07447" stroke="#99CB38" stroke-width="2"/>
+                        </svg>
+                        <p class="mb-0">Вы можете задать любой интересующий Вас вопрос, уточнить цены, вызвать замерщика, проконсультироваться о продукции.</p>
+                    </div>
+                    <div class="pb-4">
+                        <form action="">
+                            <div class="pb-4">
+                                <input class="form-control fs-6 fs-md-5" type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="pb-4">
+                                <input class="form-control fs-6 fs-md-5" type="number" placeholder="+7(_ _ _) _ _ _-_ _ - _ _ ">
+                            </div>
+                            <button class="btn btn-primary d-block w-100" type="button">Позвоните мне</button>
+                        </form>
+                    </div>
+                    <p class="fs-11 text-white-aluminum text-center">Нажимая кнопку “Позвоните мне”, вы соглашаетесь с условиями Политики конфиденциальности</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="/assets/build/js/main.min.js"></script>
 </body>
